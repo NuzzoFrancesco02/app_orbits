@@ -770,7 +770,7 @@ classdef plotOrbits_application_exported < matlab.apps.AppBase
             if app.perigeperigeButton.Value == 1
                 app.om_fEditField.Value = app.om_iEditField.Value + 180;
                 app.th_iEditField.Value = 180;
-                 app.th_fEditField_2.Value = 360;
+                app.th_fEditField_2.Value = 360;
             end
         end
 
@@ -814,7 +814,6 @@ classdef plotOrbits_application_exported < matlab.apps.AppBase
             ei = app.e_iEditField_2.Value; ef = app.e_fEditField_2.Value;
             ai = app.a_iEditField_2.Value; af = app.a_fEditField_2.Value;
             
-         
             om_i = deg2rad(app.om_iEditField_2.Value); 
             om_f = deg2rad(app.om_fEditField_2.Value);
             th_i = deg2rad(app.th_iEditField_2.Value); 
